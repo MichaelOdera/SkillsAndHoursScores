@@ -161,17 +161,27 @@ public class SubmissionActivity extends AppCompatActivity implements View.OnClic
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()){
                     Toast.makeText(SubmissionActivity.this, "Successfully Submitted", Toast.LENGTH_LONG).show();
-                    mSuccessDialog.setContentView(R.layout.dialog_success_layout);
+                    showSuccessDialog();
                 }
             }
 
             @Override
             public void onFailure(Call<Void> call, Throwable t) {
-                mFailureDialog.setContentView(R.layout.dialog_fail_layout);
-                Objects.requireNonNull(mFailureDialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                mFailureDialog.show();
+                showFailureDialog();
             }
         });
+    }
+
+    private void showFailureDialog() {
+        mFailureDialog.setContentView(R.layout.dialog_fail_layout);
+        Objects.requireNonNull(mFailureDialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        mFailureDialog.show();
+    }
+
+    private void showSuccessDialog() {
+        mSuccessDialog.setContentView(R.layout.dialog_success_layout);
+        Objects.requireNonNull(mSuccessDialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        mSuccessDialog.show();
     }
 
 

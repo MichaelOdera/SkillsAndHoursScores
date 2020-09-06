@@ -9,14 +9,16 @@
     android:layout_height="wrap_content"
     android:background="@drawable/rounded_dialog_background">
 
-    <pl.droidsonroids.gif.GifImageView
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/success_gif"
+        android:src="@drawable/gads_success"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView"

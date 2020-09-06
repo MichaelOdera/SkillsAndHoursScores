@@ -49,7 +49,6 @@ GADS app uses the following dependencies.
 | Retrofit | 'com.squareup.retrofit2:retrofit:2.7.2'|
 | Gson-Converter | 'com.squareup.retrofit2:converter-gson:2.7.2' |
 | Picasso | 'com.squareup.picasso:picasso:2.71828' |
-| Android GIFs | 'pl.droidsonroids.gif:android-gif-drawable:1.2.12' |
 
 
 ### Development
@@ -83,6 +82,9 @@ Tests for the application can be written through Espresso and AndroidJUnit for i
 
 ##### Failure Dialog
 ![Failure Dialog](./screenshot_failure.png)
+
+##### Success Dialog
+![Success Dialog](./screenshot_succes.png)
 
 
 License
