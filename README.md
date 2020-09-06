@@ -6,7 +6,6 @@ Date - 6th September 2020
 This application is about the presentation of the top scorers for the google africa developers scholarship project. This is the practise phase of the project.
 The leaders are shown by hours and by skills test.
 
-[![N|Solid]()](https://nodesource.com/products/nsolid)
 
 
 GADS application is an android application, mobile-ready, and depends on online connection to fetch data from the api resource.
@@ -64,25 +63,26 @@ Tests for the application can be written through Espresso and AndroidJUnit for i
 #### Screenshots
 
 ##### Launcher Photo
-[Launcher](./screenshot_launcher.png)
+![Launcher](./screenshot_launcher.png)
 
 ##### Confirmation Photo
-[confirmation Dialog](./screenshot_confirm.png)
+![confirmation Dialog](./screenshot_confirm.png)
 
 ##### Hours Leaders Display
-[Hours](./screenshot_hours.png)
+![Hours](./screenshot_hours.png)
 
 ##### Skills Leaders Display
-[Skills](./screenshot_skills.png)
+![Skills](./screenshot_skills.png)
 
 ##### No Network Display
-[No Network](./screenshot_nonetwork.png)
+
+![No Network](./screenshot_nonetwork.png)
 
 ##### Form Display
-[Submission Form](./screenshot_form.png)
+![Submission Form](./screenshot_form.png)
 
 ##### Failure Dialog
-[Failure Dialog](./screenshot_failure.png)
+![Failure Dialog](./screenshot_failure.png)
 
 
 License
